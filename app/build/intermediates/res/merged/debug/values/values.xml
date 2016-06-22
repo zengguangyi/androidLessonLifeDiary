@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_black">#313131</color>
+    <color name="common_blue">#0da6df</color>
+    <color name="common_dialog_tittle">#313131</color>
+    <color name="common_gray">#919191</color>
+    <color name="common_green">#69b423</color>
+    <color name="common_hint">#b8b7b7</color>
+    <color name="common_orange">#f88f10</color>
+    <color name="common_red">#ff0000</color>
+    <color name="common_warning_color">#f88f10</color>
+    <color name="transparent">#50000000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">我的日记本</string>
+    <string name="body">内容:</string>
+    <string name="button_ok">OK</string>
+    <string name="confirm">确定</string>
+    <string name="diary_delete_success">删除成功</string>
+    <string name="error_message">Error loading note</string>
+    <string name="error_title">Error</string>
+    <string name="menu_delete">删除当前日记</string>
+    <string name="menu_discard">不保存</string>
+    <string name="menu_insert">添加新日记</string>
+    <string name="menu_revert">Revert</string>
+    <string name="resolve_edit">编辑日记</string>
+    <string name="resolve_title">编辑标题</string>
+    <string name="title">标题:</string>
+    <string name="title_create">新建日记</string>
+    <string name="title_diares_list">日记本</string>
+    <string name="title_diary">日记</string>
+    <string name="title_edit">编辑日记</string>
+    <string name="title_edit_title">日记标题:</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Transparent">
+　　
+　　		<item name="android:windowBackground">@color/transparent</item>
+　　
+　　		<item name="android:windowIsTranslucent">true</item>
+　　
+　　		<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+　　
+　　</style>
+    <style name="myStyle" parent="android:Widget"/>
+    <style name="myStyle.BlackBigText">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/common_black</item>
+    </style>
+</resources>

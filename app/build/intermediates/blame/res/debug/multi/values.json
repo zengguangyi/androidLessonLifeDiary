@@ -1,0 +1,680 @@
+[
+    {
+        "outputFile": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 46,
+                    "endOffset": 97
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 46,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 102,
+                    "endColumn": 45,
+                    "endOffset": 143
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 45,
+                        "endOffset": 272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 148,
+                    "endColumn": 54,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 588,
+                        "endColumn": 54,
+                        "endOffset": 638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 45,
+                    "endOffset": 244
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 45,
+                        "endOffset": 215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 249,
+                    "endColumn": 46,
+                    "endOffset": 291
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 346,
+                        "endColumn": 46,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 296,
+                    "endColumn": 45,
+                    "endOffset": 337
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 45,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 342,
+                    "endColumn": 47,
+                    "endOffset": 385
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 461,
+                        "endColumn": 47,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 390,
+                    "endColumn": 44,
+                    "endOffset": 430
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 44,
+                        "endOffset": 445
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 435,
+                    "endColumn": 54,
+                    "endOffset": 485
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 521,
+                        "endColumn": 54,
+                        "endOffset": 571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 490,
+                    "endColumn": 47,
+                    "endOffset": 533
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 47,
+                        "endOffset": 730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 538,
+                    "endColumn": 39,
+                    "endOffset": 573
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 39,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 578,
+                    "endColumn": 42,
+                    "endOffset": 616
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 658,
+                        "endColumn": 39,
+                        "endOffset": 696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 621,
+                    "endColumn": 36,
+                    "endOffset": 653
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "startOffset": 584,
+                        "endColumn": 33,
+                        "endOffset": 616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 658,
+                    "endColumn": 40,
+                    "endOffset": 694
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 701,
+                        "endColumn": 37,
+                        "endOffset": 737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 699,
+                    "endColumn": 38,
+                    "endOffset": 733
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 1,
+                        "startOffset": 619,
+                        "endColumn": 35,
+                        "endOffset": 653
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 738,
+                    "endColumn": 53,
+                    "endOffset": 787
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 740,
+                        "endColumn": 50,
+                        "endOffset": 789
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 792,
+                    "endColumn": 60,
+                    "endOffset": 848
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 1,
+                        "startOffset": 838,
+                        "endColumn": 57,
+                        "endOffset": 894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 853,
+                    "endColumn": 45,
+                    "endOffset": 894
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 794,
+                        "endColumn": 42,
+                        "endOffset": 835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 899,
+                    "endColumn": 46,
+                    "endOffset": 941
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 54,
+                        "endColumn": 43,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 946,
+                    "endColumn": 44,
+                    "endOffset": 986
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 188,
+                        "endColumn": 41,
+                        "endOffset": 228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 991,
+                    "endColumn": 45,
+                    "endOffset": 1032
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 99,
+                        "endColumn": 42,
+                        "endOffset": 140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1037,
+                    "endColumn": 46,
+                    "endOffset": 1079
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 143,
+                        "endColumn": 43,
+                        "endOffset": 185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1084,
+                    "endColumn": 45,
+                    "endOffset": 1125
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 233,
+                        "endColumn": 42,
+                        "endOffset": 274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1130,
+                    "endColumn": 46,
+                    "endOffset": 1172
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 277,
+                        "endColumn": 43,
+                        "endOffset": 319
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1177,
+                    "endColumn": 37,
+                    "endOffset": 1210
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 548,
+                        "endColumn": 34,
+                        "endOffset": 581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1215,
+                    "endColumn": 45,
+                    "endOffset": 1256
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 324,
+                        "endColumn": 42,
+                        "endOffset": 365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1261,
+                    "endColumn": 49,
+                    "endOffset": 1306
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 410,
+                        "endColumn": 46,
+                        "endOffset": 455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1311,
+                    "endColumn": 42,
+                    "endOffset": 1349
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 458,
+                        "endColumn": 39,
+                        "endOffset": 496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1354,
+                    "endColumn": 43,
+                    "endOffset": 1393
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 368,
+                        "endColumn": 40,
+                        "endOffset": 407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1398,
+                    "endColumn": 50,
+                    "endOffset": 1444
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 1,
+                        "startOffset": 499,
+                        "endColumn": 47,
+                        "endOffset": 545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1449,
+                    "endLine": 38,
+                    "endColumn": 12,
+                    "endOffset": 1735
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\style.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 1740,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 1895
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\style.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 1900,
+                    "endLine": 50,
+                    "endColumn": 10,
+                    "endOffset": 2165
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\style.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 924,
+                        "endLine": 33,
+                        "endColumn": 10,
+                        "endOffset": 1197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2170,
+                    "endColumn": 51,
+                    "endOffset": 2217
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\style.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 685,
+                        "endColumn": 49,
+                        "endOffset": 733
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2222,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 2386
+                },
+                "from": {
+                    "file": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\values\\style.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 739,
+                        "endLine": 22,
+                        "endColumn": 12,
+                        "endOffset": 906
+                    }
+                }
+            }
+        ]
+    }
+]
