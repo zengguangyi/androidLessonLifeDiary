@@ -74,11 +74,11 @@ public class LifeDiaryContentProvider extends ContentProvider{
 	//定义四：getFormateCreatedDate。一个获取当前时间的函数
 	public static String getFormateCreatedDate() {
 		Calendar calendar = Calendar.getInstance();
-		String created = calendar.get(Calendar.YEAR) + "年"
-				+ calendar.get(Calendar.MONTH) + "月"
-				+ calendar.get(Calendar.DAY_OF_MONTH) + "日"
-				+ calendar.get(Calendar.HOUR_OF_DAY) + "时"
-				+ calendar.get(Calendar.MINUTE) + "分";
+		String created = calendar.get(Calendar.YEAR) + "."
+				+ calendar.get(Calendar.MONTH) + "."
+				+ calendar.get(Calendar.DAY_OF_MONTH) + " "
+				+ calendar.get(Calendar.HOUR_OF_DAY) + ":"
+				+ calendar.get(Calendar.MINUTE) ;
 		return created;
 	}
 
