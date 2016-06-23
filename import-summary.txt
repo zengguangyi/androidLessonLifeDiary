@@ -8,10 +8,8 @@ Eclipse projects. Here's how the projects were restructured:
 
 * AndroidManifest.xml => app\src\main\AndroidManifest.xml
 * assets\ => app\src\main\assets
-* libs\greendao-1.3.0-beta-1.jar => app\libs\greendao-1.3.0-beta-1.jar
 * res\ => app\src\main\res\
 * src\ => app\src\main\java\
-* src-gen\ => app\src\main\java\
 
 Next Steps:
 -----------

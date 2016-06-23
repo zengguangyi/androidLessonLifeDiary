@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     }
 ]

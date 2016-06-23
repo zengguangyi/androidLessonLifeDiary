@@ -20,7 +20,6 @@
 	<string name="app_name">我的日记本</string>
 
 	<string name="button_ok">OK</string>
-	<string name="diary_delete_success">删除成功</string>
 
 	<string name="error_title">Error</string>
 	<string name="error_message">Error loading note</string>

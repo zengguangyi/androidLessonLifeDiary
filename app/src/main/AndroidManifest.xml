@@ -4,18 +4,16 @@
     <application android:icon="@drawable/icon" android:label="@string/app_name">   
      <provider android:name="LifeDiaryContentProvider"
 			android:authorities="andy.ham.diarycontentprovider" />
+        <activity android:name=".LifeDiary"></activity>
+        <activity android:name="com.jcodecraeer.linkedviewpager.UserGuideActivity"
+                  android:label="@string/title_diares_list">               
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
-
-
-      <activity android:name="com.jcodecraeer.linkedviewpager.UserGuideActivity"
-          android:label="@string/title_diares_list">               
-          <intent-filter >
-             <action android:name="android.intent.action.MAIN" />
-             <category android:name="android.intent.category.LAUNCHER" />
-         </intent-filter>
-	  </activity>
-		<activity android:name=".LifeDiary"></activity>
-		<activity android:name="DiaryEditor"
+	<activity android:name="DiaryEditor"
 			android:theme="@android:style/Theme.Light"
 			android:label="@string/title_diary">
 

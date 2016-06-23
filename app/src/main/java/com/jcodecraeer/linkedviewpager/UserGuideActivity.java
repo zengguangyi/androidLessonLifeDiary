@@ -1,23 +1,31 @@
 package com.jcodecraeer.linkedviewpager;
 
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.Window;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
+import java.util.ArrayList;
 
 import com.jcodecraeer.linkedviewpager.LinkedViewPager.MyPagerAdapter;
 import com.jcodecraeer.linkedviewpager.LinkedViewPager.ViewPager;
+ 
 
-import java.util.ArrayList;
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.os.Parcelable;
+import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.View;
+import android.view.Window;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
+import andy.ham.IsFirst;
 import andy.ham.LifeDiary;
 import andy.ham.R;
 
@@ -33,10 +41,9 @@ public class UserGuideActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_viewpager_slash);
 		initViewPager();
-
+		Log.e("YYY","YYY");
 
 	}
 
@@ -72,13 +79,13 @@ public class UserGuideActivity extends Activity {
       	mFramePager.setAdapter(mFramePageAdapter);
 //      	mFramePager.setOnPageChangeListener(mFramePagerListener);
   		View view1 = inflater.inflate(R.layout.transparent_layer, null);
-  		initPagerView(view1,"记录每天做的事");
+  		initPagerView(view1,"圆天盖着大海");
   		View view2 = inflater.inflate(R.layout.transparent_layer, null);
-  		initPagerView(view2,"每天约过的妹子");
+  		initPagerView(view2,"黑水托着孤舟");
   		View view3 = inflater.inflate(R.layout.transparent_layer, null);
-  		initPagerView(view3,"记录逆袭成为男神的健身之路");
+  		initPagerView(view3,"也看不见山");
   		View view4 = inflater.inflate(R.layout.transparent_layer, null);
-  		initPagerView(view4,"其实上面都是我编的");
+  		initPagerView(view4,"那天边只有云头");
   		View view5 = inflater.inflate(R.layout.transparent_layer, null);
   		TextView textView5 = (TextView)view5.findViewById(R.id.text);
   		textView5.setVisibility(View.GONE);
@@ -87,9 +94,8 @@ public class UserGuideActivity extends Activity {
   		btn.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View view){
-				Intent intent=new Intent(UserGuideActivity.this, LifeDiary.class);
-				startActivity(intent);
-                finish();
+				Intent i=new Intent(UserGuideActivity.this, LifeDiary.class);
+				startActivity(i);
 			}
 		});
   		

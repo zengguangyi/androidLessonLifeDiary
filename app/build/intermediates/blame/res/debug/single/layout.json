@@ -1,42 +1,74 @@
 [
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_viewpager_slash.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\layout\\activity_viewpager_slash.xml"
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confim_pass.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\layout\\confim_pass.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transparent_layer.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\layout\\transparent_layer.xml"
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_edit.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\layout\\diary_edit.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confim_pass.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\layout\\confim_pass.xml"
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\check_pass.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\layout\\check_pass.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transparent_layer_image.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\layout\\transparent_layer_image.xml"
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transparent_layer.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\layout\\transparent_layer.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_row.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\layout\\diary_row.xml"
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_password.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\layout\\diary_password.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_edit.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\layout\\diary_edit.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\check_pass.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\layout\\check_pass.xml"
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transparent_layer_image.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\layout\\transparent_layer_image.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_edit.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\layout\\diary_edit.xml"
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_list.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\layout\\diary_list.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_password.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\layout\\diary_password.xml"
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_list.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\layout\\diary_list.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_list.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\layout\\diary_list.xml"
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transparent_layer_image.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\layout\\transparent_layer_image.xml"
+    },
+    {
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_viewpager_slash.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\layout\\activity_viewpager_slash.xml"
+    },
+    {
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_password.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\layout\\diary_password.xml"
+    },
+    {
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_viewpager_slash.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\layout\\activity_viewpager_slash.xml"
+    },
+    {
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confim_pass.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\layout\\confim_pass.xml"
+    },
+    {
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_row.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\layout\\diary_row.xml"
+    },
+    {
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\check_pass.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\layout\\check_pass.xml"
+    },
+    {
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\transparent_layer.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\layout\\transparent_layer.xml"
+    },
+    {
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\diary_row.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\layout\\diary_row.xml"
     }
 ]

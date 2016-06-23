@@ -15,6 +15,10 @@
  */
 package com.jcodecraeer.linkedviewpager.LinkedViewPager;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.database.DataSetObserver;
@@ -49,11 +53,6 @@ import android.view.ViewParent;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.animation.Interpolator;
 import android.widget.Scroller;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-
 /**
  * Layout manager that allows the user to flip left and right
  * through pages of data.  You supply an implementation of a
@@ -1538,7 +1537,7 @@ public class ViewPager extends ViewGroup {
         final float pageOffset = (((float) xpos / width) - ii.offset) /
                 (ii.widthFactor + marginOffset);
         final int offsetPixels = (int) (pageOffset * widthWithMargin);
-
+        
 
         mCalledSuper = false;
         onPageScrolled(currentPage, pageOffset, offsetPixels);
@@ -1948,7 +1947,7 @@ public class ViewPager extends ViewGroup {
         final float deltaX = mLastMotionX - x;
         mLastMotionX = x;
 
-
+        
         float oldScrollX = getScrollX();
         float scrollX = oldScrollX + deltaX;
         final int width = getWidth();
@@ -1989,7 +1988,7 @@ public class ViewPager extends ViewGroup {
         //add by jcodecraeer
 		final float pageOffset =  scrollX / width;
 		if(mFollowViewPager!=null){
-			mFollowViewPager.scrollTo( (int)(pageOffset*mFollowViewPager.getWidth()), mFollowViewPager.getScrollY());
+			mFollowViewPager.scrollTo( (int)(pageOffset*mFollowViewPager.getWidth()), mFollowViewPager.getScrollY());	
 		}
         return needsInvalidate;
     }

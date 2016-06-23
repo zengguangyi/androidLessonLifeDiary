@@ -20,13 +20,13 @@ import android.text.TextUtils;
 import android.util.Log;
 import andy.ham.Fields.DiaryColumns;
 public class LifeDiaryContentProvider extends ContentProvider{
-	//¶¨ÒåÒ»£ºÈÕ¼Ç±¾ÖĞ±äÁ¿
+	//å®šä¹‰ä¸€ï¼šæ—¥è®°æœ¬ä¸­å˜é‡
 	private static final String DATABASE_NAME = "database";
 	private static final int DATABASE_VERSION = 3;
 	private static final String DIARY_TABLE_NAME = "diary";
 	private static final int DIARIES = 1;
 	private static final int DIARY_ID = 2;
-	//¶¨Òå¶ş£ºUriMatcher¡£ÓÃÀ´Æ¥ÅäURIµÄÀàĞÍ£¬ÊÇµ¥Ò»µÄÊı¾İÇëÇó»¹ÊÇÈ«²¿Êı¾İÇëÇó
+	//å®šä¹‰äºŒï¼šUriMatcherã€‚ç”¨æ¥åŒ¹é…URIçš„ç±»å‹ï¼Œæ˜¯å•ä¸€çš„æ•°æ®è¯·æ±‚è¿˜æ˜¯å…¨éƒ¨æ•°æ®è¯·æ±‚
 	private static final UriMatcher sUriMatcher;
 	static {
 		sUriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
@@ -34,8 +34,8 @@ public class LifeDiaryContentProvider extends ContentProvider{
 		sUriMatcher.addURI(Fields.AUTHORITY, "diaries/#", DIARY_ID);
 
 	}
-	/*¶¨ÒåÈı£ºDatabaseHelper¡£DatabaseHelperÊÇ¼Ì³ĞSQLiteOpenHelperµÄ
-	 * SQLiteOpenHelperÊÇÒ»¸ö³éÏóÀà£¬ÓĞ3¸öº¯Êı onCreate¡¢onUpdate¡¢onOpen
+	/*å®šä¹‰ä¸‰ï¼šDatabaseHelperã€‚DatabaseHelperæ˜¯ç»§æ‰¿SQLiteOpenHelperçš„
+	 * SQLiteOpenHelperæ˜¯ä¸€ä¸ªæŠ½è±¡ç±»ï¼Œæœ‰3ä¸ªå‡½æ•° onCreateã€onUpdateã€onOpen
 	*/
 	private DatabaseHelper mOpenHelper;
 	private static class DatabaseHelper extends SQLiteOpenHelper {
@@ -53,12 +53,12 @@ public class LifeDiaryContentProvider extends ContentProvider{
 					+ " TEXT," + DiaryColumns.CREATED + " TEXT" + ");";
 			//
 			sql ="CREATE TABLE " + DIARY_TABLE_NAME + " ("
-			+ DiaryColumns._ID + " INTEGER PRIMARY KEY,"
-			+ DiaryColumns.TITLE + " varchar(255)," + DiaryColumns.BODY
-			+ " TEXT," + DiaryColumns.CREATED + " TEXT" + ");";
+					+ DiaryColumns._ID + " INTEGER PRIMARY KEY,"
+					+ DiaryColumns.TITLE + " varchar(255)," + DiaryColumns.BODY
+					+ " TEXT," + DiaryColumns.CREATED + " TEXT" + ");";
 			//
 			Log.i("jinyan", "sql="+sql);
-			db.execSQL(sql); 		
+			db.execSQL(sql);
 		}
 		@Override
 		public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
@@ -67,22 +67,22 @@ public class LifeDiaryContentProvider extends ContentProvider{
 							+ newVersion);
 			db.execSQL("DROP TABLE IF EXISTS diary");
 			onCreate(db);
-			
+
 		}
-		
+
 	}
-	//¶¨ÒåËÄ£ºgetFormateCreatedDate¡£Ò»¸ö»ñÈ¡µ±Ç°Ê±¼äµÄº¯Êı
+	//å®šä¹‰å››ï¼šgetFormateCreatedDateã€‚ä¸€ä¸ªè·å–å½“å‰æ—¶é—´çš„å‡½æ•°
 	public static String getFormateCreatedDate() {
 		Calendar calendar = Calendar.getInstance();
-		String created = calendar.get(Calendar.YEAR) + "Äê"
-				+ calendar.get(Calendar.MONTH) + "ÔÂ"
-				+ calendar.get(Calendar.DAY_OF_MONTH) + "ÈÕ"
-				+ calendar.get(Calendar.HOUR_OF_DAY) + "Ê±"
-				+ calendar.get(Calendar.MINUTE) + "·Ö";
+		String created = calendar.get(Calendar.YEAR) + "å¹´"
+				+ calendar.get(Calendar.MONTH) + "æœˆ"
+				+ calendar.get(Calendar.DAY_OF_MONTH) + "æ—¥"
+				+ calendar.get(Calendar.HOUR_OF_DAY) + "æ—¶"
+				+ calendar.get(Calendar.MINUTE) + "åˆ†";
 		return created;
 	}
 
-	
+
 	@Override
 	public boolean onCreate() {
 		mOpenHelper = new DatabaseHelper(getContext());
@@ -90,24 +90,24 @@ public class LifeDiaryContentProvider extends ContentProvider{
 	}
 	@Override
 	public Cursor query(Uri uri, String[] projection, String selection,
-			String[] selectionArgs, String sortOrder) {
-		//SQLiteQueryBuilderÊÇÒ»¸ö¹¹Ôìsql²éÑ¯Óï¾äµÄ¸¨ÖúÀà
+						String[] selectionArgs, String sortOrder) {
+		//SQLiteQueryBuilderæ˜¯ä¸€ä¸ªæ„é€ sqlæŸ¥è¯¢è¯­å¥çš„è¾…åŠ©ç±»
 		SQLiteQueryBuilder qb = new SQLiteQueryBuilder();
-		//UriMatcher.match(uri)¸ù¾İ·µ»ØÖµ¿ÉÒÔÅĞ¶ÏÕâ´Î²éÑ¯ÇëÇóÊ±
-		//ËûÊÇÇëÇóµÄÈ«²¿Êı¾İ»¹ÊÇÄ³¸öidµÄÊı¾İ
+		//UriMatcher.match(uri)æ ¹æ®è¿”å›å€¼å¯ä»¥åˆ¤æ–­è¿™æ¬¡æŸ¥è¯¢è¯·æ±‚æ—¶
+		//ä»–æ˜¯è¯·æ±‚çš„å…¨éƒ¨æ•°æ®è¿˜æ˜¯æŸä¸ªidçš„æ•°æ®
 		switch (sUriMatcher.match(uri)) {
-		//Èç¹ûÇëÇóÊÇDIARIESÖ»ĞèÖ´ĞĞsetTables(DIARY_TABLE_NAME)
-		case DIARIES:
-			qb.setTables(DIARY_TABLE_NAME);
-			break;
-			//Èç¹û·µ»ØÖµÊÇDIARY_ID£¬»¹ĞèÒª¼ÓÈëwhereÌõ¼ş
-		case DIARY_ID:
-			qb.setTables(DIARY_TABLE_NAME);
-			qb.appendWhere(DiaryColumns._ID + "="
-					+ uri.getPathSegments().get(1));
-			break;
-		default:
-			throw new IllegalArgumentException("Unknown URI " + uri);
+			//å¦‚æœè¯·æ±‚æ˜¯DIARIESåªéœ€æ‰§è¡ŒsetTables(DIARY_TABLE_NAME)
+			case DIARIES:
+				qb.setTables(DIARY_TABLE_NAME);
+				break;
+			//å¦‚æœè¿”å›å€¼æ˜¯DIARY_IDï¼Œè¿˜éœ€è¦åŠ å…¥whereæ¡ä»¶
+			case DIARY_ID:
+				qb.setTables(DIARY_TABLE_NAME);
+				qb.appendWhere(DiaryColumns._ID + "="
+						+ uri.getPathSegments().get(1));
+				break;
+			default:
+				throw new IllegalArgumentException("Unknown URI " + uri);
 		}
 		String orderBy;
 		if (TextUtils.isEmpty(sortOrder)) {
@@ -115,36 +115,36 @@ public class LifeDiaryContentProvider extends ContentProvider{
 		} else {
 			orderBy = sortOrder;
 		}
-		//¹Ø¼üµÄ²éÑ¯Óï¾ä£¬query£¨£©²ÎÊıÎª£º
-		//Êı¾İ¿âÊµÀı¡¢×Ö·û´®Êı×é¡¢where²¿·Ö
-		//ÒÔ¼°×Ö·û´®Êı×éÀïÃæÃ¿Ò»ÏîÒÀ´Î´úÌæµÚÈı¸ö²ÎÊı³öÏÖÎÊºÅ
-		//null±íÊ¾sqlÓï¾ägroupby
-		//µÚ¶ş¸önull±íÊ¾sqlÓï¾ähaving²¿·Ö¡¢×îºóÒ»¸ö²ÎÊıÊÇÅÅĞò
+		//å…³é”®çš„æŸ¥è¯¢è¯­å¥ï¼Œqueryï¼ˆï¼‰å‚æ•°ä¸ºï¼š
+		//æ•°æ®åº“å®ä¾‹ã€å­—ç¬¦ä¸²æ•°ç»„ã€whereéƒ¨åˆ†
+		//ä»¥åŠå­—ç¬¦ä¸²æ•°ç»„é‡Œé¢æ¯ä¸€é¡¹ä¾æ¬¡ä»£æ›¿ç¬¬ä¸‰ä¸ªå‚æ•°å‡ºç°é—®å·
+		//nullè¡¨ç¤ºsqlè¯­å¥groupby
+		//ç¬¬äºŒä¸ªnullè¡¨ç¤ºsqlè¯­å¥havingéƒ¨åˆ†ã€æœ€åä¸€ä¸ªå‚æ•°æ˜¯æ’åº
 		SQLiteDatabase db = mOpenHelper.getReadableDatabase();
 		Cursor c = qb.query(db, projection, selection, selectionArgs
 				, null,null, orderBy);
 		return c;
 	}
 
-	//·µ»ØÒ»¸ö¸øUriÖÆ¶¨Êı¾İµÄMIMEÀàĞÍ
-	//ËûµÄ·µ»ØÖµÈç¹ûÊÇÒÔvnd.android.cursor.item¿ªÍ·£¬ÄÇÃ´UriÊÇµ¥ÌõÊı¾İ
-	//Èç¹ûÊÇÒÔvnd.android.cursor.dir¿ªÍ·µÄ£¬ËµÃ÷UriÖ¸¶¨µÄÈ«²¿Êı¾İ
+	//è¿”å›ä¸€ä¸ªç»™Uriåˆ¶å®šæ•°æ®çš„MIMEç±»å‹
+	//ä»–çš„è¿”å›å€¼å¦‚æœæ˜¯ä»¥vnd.android.cursor.itemå¼€å¤´ï¼Œé‚£ä¹ˆUriæ˜¯å•æ¡æ•°æ®
+	//å¦‚æœæ˜¯ä»¥vnd.android.cursor.dirå¼€å¤´çš„ï¼Œè¯´æ˜UriæŒ‡å®šçš„å…¨éƒ¨æ•°æ®
 	public String getType(Uri uri) {
 		switch (sUriMatcher.match(uri)) {
-		case DIARIES:
-			return DiaryColumns.CONTENT_TYPE;
+			case DIARIES:
+				return DiaryColumns.CONTENT_TYPE;
 
-		case DIARY_ID:
-			return DiaryColumns.CONTENT_ITEM_TYPE;
+			case DIARY_ID:
+				return DiaryColumns.CONTENT_ITEM_TYPE;
 
-		default:
-			throw new IllegalArgumentException("Unknown URI " + uri);
+			default:
+				throw new IllegalArgumentException("Unknown URI " + uri);
 		}
 	}
 
 	@Override
 	public Uri insert(Uri uri, ContentValues initialValues) {
-		//ÅĞ¶Ïuri£¬Èç¹ûÕâ¸öuri²»ÊÇDIARIESÀàĞÍµÄ£¬ÄÇÃ´Õâ¸öuri¾ÍÊÇÒ»¸ö·Ç·¨µÄuri
+		//åˆ¤æ–­uriï¼Œå¦‚æœè¿™ä¸ªuriä¸æ˜¯DIARIESç±»å‹çš„ï¼Œé‚£ä¹ˆè¿™ä¸ªuriå°±æ˜¯ä¸€ä¸ªéæ³•çš„uri
 		if (sUriMatcher.match(uri) != DIARIES) {
 			throw new IllegalArgumentException("Unknown URI " + uri);
 		}
@@ -168,15 +168,15 @@ public class LifeDiaryContentProvider extends ContentProvider{
 		if (values.containsKey(Fields.DiaryColumns.BODY) == false) {
 			values.put(Fields.DiaryColumns.BODY, "");
 		}
-		//µÃµ½Ò»¸öSQLiteDatabaseµÄÊµÀı
+		//å¾—åˆ°ä¸€ä¸ªSQLiteDatabaseçš„å®ä¾‹
 		SQLiteDatabase db = mOpenHelper.getWritableDatabase();
-		//¸ºÔğ²åÈëÒ»Ìõ¼ÇÂ¼µ½Êı¾İ¿âµ±ÖĞ
+		//è´Ÿè´£æ’å…¥ä¸€æ¡è®°å½•åˆ°æ•°æ®åº“å½“ä¸­
 		long rowId = db.insert
-		(DIARY_TABLE_NAME, Fields.DiaryColumns.BODY, values);
+				(DIARY_TABLE_NAME, Fields.DiaryColumns.BODY, values);
 		if (rowId > 0) {
 			Uri diaryUri = ContentUris.withAppendedId(
 					Fields.DiaryColumns.CONTENT_URI, rowId);
-			//×¢Òâ£ºinsert£¨£©·µ»ØµÄÊÇÒ»¸öuri£¬¶ø²»ÊÇÒ»¸ö¼ÇÂ¼id
+			//æ³¨æ„ï¼šinsertï¼ˆï¼‰è¿”å›çš„æ˜¯ä¸€ä¸ªuriï¼Œè€Œä¸æ˜¯ä¸€ä¸ªè®°å½•id
 			return diaryUri;
 		}
 
@@ -185,24 +185,24 @@ public class LifeDiaryContentProvider extends ContentProvider{
 
 	@Override
 	public int delete(Uri uri, String where, String[] whereArgs) {
-		//getWritableDatabase£¨£©·½·¨µÃµ½Ò»¸östringµÄlist
+		//getWritableDatabaseï¼ˆï¼‰æ–¹æ³•å¾—åˆ°ä¸€ä¸ªstringçš„list
 		SQLiteDatabase db = mOpenHelper.getWritableDatabase();
-		//µÃµ½rowIdµÄÖµ£¬Èç¹ûget£¨0£©ÄÇÖµ¾ÍÎªdiaries
+		//å¾—åˆ°rowIdçš„å€¼ï¼Œå¦‚æœgetï¼ˆ0ï¼‰é‚£å€¼å°±ä¸ºdiaries
 		String rowId = uri.getPathSegments().get(1);
-		//±ê×¼µÄSQLiteÉ¾³ı²Ù×÷£¬µÚÒ»¸ö²ÎÊıÊÇÊı¾İ±íµÄÃû×Ö
-		//µÚ¶ş¸öÏàµ±ÓÚSQLÓï¾äÖĞµÄwhere²¿·Ö¡£
+		//æ ‡å‡†çš„SQLiteåˆ é™¤æ“ä½œï¼Œç¬¬ä¸€ä¸ªå‚æ•°æ˜¯æ•°æ®è¡¨çš„åå­—
+		//ç¬¬äºŒä¸ªç›¸å½“äºSQLè¯­å¥ä¸­çš„whereéƒ¨åˆ†ã€‚
 		return db.delete(DIARY_TABLE_NAME, DiaryColumns._ID +
 				"=" + rowId, null);
 	}
 
 	@Override
 	public int update(Uri uri, ContentValues values, String where,
-			String[] whereArgs) {
-		//getWritableDatabase£¨£©·½·¨µÃµ½SQLiteDatabaseµÄÊµÀı
+					  String[] whereArgs) {
+		//getWritableDatabaseï¼ˆï¼‰æ–¹æ³•å¾—åˆ°SQLiteDatabaseçš„å®ä¾‹
 		SQLiteDatabase db = mOpenHelper.getWritableDatabase();
-		//µÃµ½rowIdµÄÖµ
+		//å¾—åˆ°rowIdçš„å€¼
 		String rowId = uri.getPathSegments().get(1);
-		//×îºóÔÚµ÷ÓÃupdateÓï¾äÖ´ĞĞ¸üĞÂ²Ù×÷
+		//æœ€ååœ¨è°ƒç”¨updateè¯­å¥æ‰§è¡Œæ›´æ–°æ“ä½œ
 		return db.update(DIARY_TABLE_NAME, values, DiaryColumns._ID +
 				"="+ rowId, null);
 	}

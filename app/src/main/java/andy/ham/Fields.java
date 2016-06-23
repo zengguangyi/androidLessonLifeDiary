@@ -4,15 +4,15 @@ import android.net.Uri;
 import android.provider.BaseColumns;
 
 public final class Fields {
-	//ÕâÀïµÄ AUTHORITY ÒªÇóÊÇÎ¨Ò»£¬¶øÇÒºÍManifestµ±ÖĞprovider±êÇ©µÄAUTHORITYÄÚÈİÒ»ÖÂ
-	//ÉùÃ÷ÁËURIµÄÊÚÈ¨ÕßÃû³Æ
+    //è¿™é‡Œçš„ AUTHORITY è¦æ±‚æ˜¯å”¯ä¸€ï¼Œè€Œä¸”å’ŒManifestå½“ä¸­provideræ ‡ç­¾çš„AUTHORITYå†…å®¹ä¸€è‡´
+    //å£°æ˜äº†URIçš„æˆæƒè€…åç§°
     public static final String AUTHORITY = "andy.ham.diarycontentprovider";
-//¹¹Ôì·½·¨
+    //æ„é€ æ–¹æ³•
     private Fields() {}
     public static final class DiaryColumns implements BaseColumns {
-        // ÄÚ²¿¾²Ì¬Àà£¬ºÍËüµÄÃû×ÖÒâË¼Ò»Ñù¶¨ÒåÁËÁĞ±í×Ö¶ÎµÄÃû×Ö
+        // å†…éƒ¨é™æ€ç±»ï¼Œå’Œå®ƒçš„åå­—æ„æ€ä¸€æ ·å®šä¹‰äº†åˆ—è¡¨å­—æ®µçš„åå­—
         private DiaryColumns() {}
-        //ÕıÊ½ÉùÃ÷ÁËcontentURI
+        //æ­£å¼å£°æ˜äº†contentURI
         public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/diaries");
 
         public static final String CONTENT_TYPE = "vnd.android.cursor.dir/vnd.google.diary";
@@ -25,7 +25,7 @@ public final class Fields {
 
         public static final String BODY = "body";
 
-        public static final String CREATED = "created";   
+        public static final String CREATED = "created";
     }
 }
 

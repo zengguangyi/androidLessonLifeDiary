@@ -1,18 +1,34 @@
 [
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_selector.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\drawable\\layout_selector.xml"
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_selector.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\drawable\\layout_selector.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\composer_button_center.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\drawable\\composer_button_center.xml"
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\access_selector.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\drawable\\access_selector.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_selector.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\drawable\\edit_selector.xml"
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\access_selector.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\drawable\\access_selector.xml"
     },
     {
-        "merged": "D:\\GIF\\LifeDiary2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\access_selector.xml",
-        "source": "D:\\GIF\\LifeDiary2\\app\\src\\main\\res\\drawable\\access_selector.xml"
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\composer_button_center.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\drawable\\composer_button_center.xml"
+    },
+    {
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_selector.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\drawable\\layout_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\composer_button_center.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\drawable\\composer_button_center.xml"
+    },
+    {
+        "merged": "D:\\LifeDiary1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_selector.xml",
+        "source": "D:\\LifeDiary1\\app\\src\\main\\res\\drawable\\edit_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\lifeDiary\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_selector.xml",
+        "source": "D:\\Android\\lifeDiary\\app\\src\\main\\res\\drawable\\edit_selector.xml"
     }
 ]

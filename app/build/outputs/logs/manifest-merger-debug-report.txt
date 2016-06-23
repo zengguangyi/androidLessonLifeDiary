@@ -1,86 +1,86 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:3:7-25
-		INJECTED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:3:7-25
+		INJECTED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:3:50-75
-		INJECTED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:3:50-75
+		INJECTED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:3:26-49
-		INJECTED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:3:26-49
+		INJECTED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:4:5-39:18
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:4:5-37:18
 	android:label
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:4:48-80
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:4:48-80
 	android:icon
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:4:18-47
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:4:18-47
 provider#andy.ham.LifeDiaryContentProvider
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:5:6-6:58
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:5:6-6:58
 	android:authorities
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:6:4-55
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:6:4-55
 	android:name
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:5:16-55
-activity#com.jcodecraeer.linkedviewpager.UserGuideActivity
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:10:7-16:15
-	android:label
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:11:11-52
-	android:name
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:10:17-81
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:12:11-15:26
-action#android.intent.action.MAIN
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:13:14-66
-	android:name
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:13:22-63
-category#android.intent.category.LAUNCHER
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:14:14-74
-	android:name
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:14:24-71
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:5:16-55
 activity#andy.ham.LifeDiary
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:17:3-50
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:7:9-56
 	android:name
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:17:13-38
-activity#andy.ham.DiaryEditor
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:18:3-38:14
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:7:19-44
+activity#com.jcodecraeer.linkedviewpager.UserGuideActivity
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:8:9-14:20
 	android:label
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:20:4-39
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:9:19-60
+	android:name
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:8:19-83
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:10:13-13:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:11:17-69
+	android:name
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:11:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:12:17-77
+	android:name
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:12:27-74
+activity#andy.ham.DiaryEditor
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:16:2-36:14
+	android:label
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:18:4-39
 	android:theme
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:19:4-46
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:17:4-46
 	android:name
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:18:13-39
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:16:12-38
 intent-filter#android.intent.category.DEFAULT+andy.ham.DiaryEditor.EDIT_DIARY
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:22:4-28:20
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:20:4-26:20
 action#andy.ham.DiaryEditor.EDIT_DIARY
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:23:5-62
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:21:5-62
 	android:name
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:23:13-59
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:21:13-59
 category#android.intent.category.DEFAULT
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:24:5-25:55
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:22:5-23:55
 	android:name
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:25:6-52
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:23:6-52
 data
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:26:5-27:68
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:24:5-25:68
 	android:mimeType
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:27:6-65
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:25:6-65
 intent-filter#android.intent.category.DEFAULT+andy.ham.DiaryEditor.action.INSERT_DIARY
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:31:4-37:20
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:29:4-35:20
 action#andy.ham.DiaryEditor.action.INSERT_DIARY
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:32:5-71
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:30:5-71
 	android:name
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:32:13-68
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:30:13-68
 uses-sdk
-ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:40:5-43
+ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:38:5-43
 	android:targetSdkVersion
-		INJECTED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml:40:15-40
-		INJECTED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml
-		INJECTED from D:\GIF\LifeDiary2\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml:38:15-40
+		INJECTED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\lifeDiary\app\src\main\AndroidManifest.xml

@@ -1,9 +1,9 @@
 package com.jcodecraeer.linkedviewpager.LinkedViewPager;
 
+import java.util.ArrayList;
+
 import android.os.Parcelable;
 import android.view.View;
-
-import java.util.ArrayList;
 
 public class MyPagerAdapter extends PagerAdapter {
 
